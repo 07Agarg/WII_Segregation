@@ -61,6 +61,7 @@ FLAGS = parser.parse_args()
 
 #path of original images with new tags######
 # tagged_path="/home/ashimag/results/Tagged_images_test/"
+create_dir(FLAGS.tagged_path)
 
 classes = ['mani_cras-Manis crassicaudata', 'maca_munz-Macaca munzala', 'maca_radi-Macaca radiata', 'athe_macr', 'vulp_beng', 'lept_java-Leptoptilos javanicus',
  'trac_pile-Trachypithecus pileatus', 'hyst_brac-Hystrix brachyura', 'nilg_hylo-Nilgiritragus hylocrius', 'prio_vive-Prionailurus viverrinus',
