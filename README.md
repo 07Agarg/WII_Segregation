@@ -26,9 +26,9 @@ Arguments to change to run on different image directory includes : ```--source``
 
 3. To create tags of the images with the generated labels, run tag_images.py. 
 ```bash
-python tag_images.py --images_path 'D:\images_directory\site0001'
-                     --pred_path 'runs/detect/yolo_test_24_08_site0001/labels/' 
-                     --tagged_path 'D:\images_directory\site0001_tagged'
+python tag_images.py --images_path 'D:\images_directory\site0001'                    ### path to images for testing
+                     --pred_path 'runs/detect/yolo_test_24_08_site0001/labels/'      ### path where label .txt file is stored
+                     --tagged_path 'D:\images_directory\site0001_tagged'             ### path where tagged images will be stored
 ```
 
 
